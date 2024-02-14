@@ -50,6 +50,7 @@
     return cookieValue;
 }
 const csrftoken = getCookie('csrftoken');
+
   paypal.Button.render({
     // Configure environment
     env: 'sandbox',
@@ -99,5 +100,4 @@ const csrftoken = getCookie('csrftoken');
   }, '#paypal-button');
 
 </script>
-
 {% endblock content %}
